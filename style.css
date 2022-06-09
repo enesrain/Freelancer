@@ -1,0 +1,293 @@
+*  {
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+    border: none;
+}
+
+
+/******* -NAV- ***************************************/
+
+nav {
+    height: 12vh;
+    width: 100%;
+    background-color: #2c3e50;
+    position: relative;
+    position: fixed;
+    z-index: 99;
+}
+nav div {
+    display: inline-block;
+    width: 50%;
+    float: left;
+   
+}
+nav a:hover {
+    color: #18bc9c;
+   
+}
+ .main-a {
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+    position: relative;
+    left: 220px;
+    top: 28px;
+}
+ .other-a {
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px;
+    position: relative;
+    left: 300px;
+    top: 30px;
+}
+
+
+
+/*****---HEADER---********************************************************************/
+
+header {
+    width: 100%;
+    height: 750px;
+    background-color: #18bc9c;
+   
+}
+.header-main {
+   height: 600px;
+   width: 100%;
+   color: white;
+   text-align: center;
+   position: relative;
+   z-index: 98;
+}
+.header-main div {
+    position: relative;
+    width: 258px;
+    height: 258px;
+    top: 200px;
+    left: 42%;
+    background-image: url(profile.png);
+   background-position: center;
+}
+.header-main h1 {
+    position: relative;
+    top: 250px;
+    font-size: 80px;
+   
+}
+.header-main h1::after {
+    content: "-------------------";
+    display: block;
+    position: relative;
+    top: -10px;
+    font-size: 40px;
+}
+.header-main p {
+    position: relative;
+    top: 260px;
+    font-size: 30px;
+}
+
+
+
+
+/*--------------------  MAİN  -------------------------------------------------------------------------------------------------------*/
+
+main {
+    height: 800px;
+    color: #2c3e50;
+}
+/* main-top**********/
+
+.main-top {
+    height: 150px;
+    text-align: center;
+}
+.main-top-h1 {
+    font-size: 40px;
+    font-weight:900;
+    position: relative;
+    top: 100px; 
+}
+.main-top-h2 {
+    font-size: 40px;
+    font-weight: 700;
+    position: relative;
+    top: 105px;    
+}
+
+/*main-image*/
+
+.main-image {
+    height: 750px;
+}
+
+.main-image-div1 {
+    height: 270px;
+    display: block;
+    position: relative;
+}
+.main-image-div2 {
+    height: 270px;
+    display: block;
+    position: relative;
+    
+}
+.image {
+    position: relative;
+    width: 350px;
+    height: 250px;
+    margin: 10px;
+    float: left;
+    top: 70px;
+    left: 14%; 
+}
+.image:hover {
+   
+   background-image:url(ss.png);
+   opacity: 0.9;
+    transition-duration: 0.7s;
+    background-size: cover;
+}
+
+.home {
+    background-image: url(home.png);
+    background-size: cover;
+}
+.cake {
+    background-image: url(cake.png);
+    background-size: cover;
+}
+.circus {
+    background-image: url(circus.png);
+    background-size: cover;
+}
+.game {
+    background-image: url(game.png);
+    background-size: cover;
+}
+.submarine {
+    background-image: url(submarine.png);
+    background-size: cover;
+}
+.safe {
+    background-image: url(safe.png);
+    background-size: cover;
+}
+
+
+/*-------ABOUT------------------------------------------------------*/
+
+.about {
+    height: 570px;
+    background-color: #18bc9c;
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+   
+}
+.about h1 {
+    font-size: 50px;
+    font-weight: 900;
+  
+}
+.h2 {
+    font-size: 40px;
+    margin-top: -20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.p1 {
+    
+    width: 380px;
+    height: 80px;
+    display: inline-block;
+    position: relative;
+    left: 0%;
+    font-size: 25px;
+    text-align: left;
+
+}
+.p2 {
+   
+    width: 380px;
+    height: 80px;
+    display: inline-block;
+    position: relative; 
+    left: 2%;
+    font-size: 25px;
+    text-align: left;
+
+}
+.about a {
+    margin-top: 40px;
+    display: block;
+    color: white;
+    padding-top: 15px;
+    width: 200px;
+    height: 50px;
+    border: 2px solid white;
+    position: relative;
+    left: 43%;
+    border-radius: 7px;
+    transition-duration: 0.5s;
+}
+.about a:hover {
+    background-color: white;
+    color: #18bc9c;
+}
+
+/*-----CONTACT ME -----------------------------------------------------------------------*/
+
+.form {
+    height: 650px;
+    width: 100%;
+    background-color: white;
+    color: #2c3e50;
+    text-align: center;
+    border-t: none;
+}
+.form h1 {
+    margin-top: 140px;
+    font-size: 40px;
+    font-weight: 900;
+}
+.contact {
+    width: 600px;
+    height: 400px;
+    border: 1px solid white;
+    padding: 20px;
+    position: relative;
+    left: 25%;
+    top: 30px;
+}
+.text {
+    width: 100%;
+    padding: 15px;
+    font-size: 20px;
+    color: #2c3e50;
+   
+}
+textarea { 
+    width: 100%;
+    font-size: 20px;
+    color: #2c3e50;
+    padding-top: 15px;
+}
+.send {
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    background-color: #18bc9c;
+    color: white;
+    margin-left: -465px;
+
+}
+.send:hover {
+    opacity: 0.7;
+}
